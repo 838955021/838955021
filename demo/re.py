@@ -6,3 +6,5 @@ def about(request):
     return HttpResponse('吕大秃，你好，我是黄大秃')
 def put(requeset):
     return  HttpResponse('抓')
+def add():
+    return 'sda'
